@@ -238,7 +238,10 @@
     align-items: center;
     position: relative;
     left: 170%;
-    top: 20%;
+    top: 5%;
+}
+.info-position h3 {
+    margin-top: 3px;
 }
 .info-position p {
     display: inline-block;
@@ -275,6 +278,25 @@
     width: 10%;
     border: 1px solid #000;
     position: relative;
+}
+#chaffoteaux {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    border-radius: 0;
+    top: 120%;
+    left: 35%;
+    z-index: 1;
+}
+#baxi {
+    width: 60px;
+    height: 30px;
+    border-radius: 0;
+    background: #fff;
+    position: absolute;
+    top: 138%;
+    left: 32%;
+    z-index: 2;
 }
 /*-- Copyright --*/
 .copyright-box {
