@@ -141,7 +141,7 @@
     position: absolute;
     top: 25%;
     bottom: 25%;
-    right: 30%;
+    right: 25%;
 }
 .third-content {
     width: 50%;
@@ -160,7 +160,7 @@
     width: 300px;
     height: 300px;
     position: absolute;
-    top: -70%;
+    top: -100%;
     left: -130%;
 }
 .title {
@@ -227,7 +227,7 @@
 }
 .info-title {
     font-size: 15px;
-    font-family: 'Montserrat', sans-serif;;
+    font-family: 'Montserrat', sans-serif;
     display: block;
     position: absolute;
     top: 3%;
@@ -316,13 +316,15 @@
     color: #222e50;
 }
 
-/*-- Service style --*/
+/*-------------- Service style --------------*/
 .service-img {
-    max-width: 800px;
-    max-height: 25vh;
-    top: -15%;
+    width: 100px;
+    height: 10vh;
+    position: absolute;
+    bottom: 0;
     right: 15%;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    object-fit:fill;
 }
 #second-service-box {
     width: 30%;
@@ -359,4 +361,243 @@
     top: 25%;
     font-size: 20px;
 }
+
+/*-------------- CONTACTS style --------------*/
+.contacts-content {
+    width: 100%;
+    height: 170vh;
+    position: relative;
+    margin-top: 20vh;
+    margin-bottom: 40vh;
+    padding-top: 47vh;
+}
+.how-contact {
+    width: 70%;
+    height: 30vh;
+    position: absolute;
+    top: 5%;
+    left: 15%;
+    display: block;
+    text-align: center;
+    justify-content: center;
+}
+.how-contact h1 {
+    font-size: 40px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    color: #000000c7;
+}
+.how-contact p {
+    font-size: 18px;
+    font-weight: 600;
+    color: #000000c8;
+}
+.form-container {
+    width: 100%;
+    height: 125vh;
+    position: relative;
+    top: 27%;
+    background: #ff7300;
+}
+.form-box {
+    width: 55%;
+    height: 105vh;
+    position: relative;
+    top: 5%;
+    left: 5%;
+    background: #fff;
+    display: flex;
+    text-align: center;
+    justify-content: start;
+}
+.form-box h1 {
+    color: #ff7300;
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    font-size: 50px;
+}
+.form-box form {
+    width: 90%;
+    height: 100vh;
+    display: block;
+    position: absolute;
+    top: 20%;
+    left: 5%;
+
+}
+.input-row input{
+    width: 100%;
+    height: 8vh;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    border: 1px solid #8c8383d3;
+}
+.input-row textarea {
+    margin-top: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.termini {
+    width: 70%;
+    height: 5vh;
+    position: relative;
+}
+.termini p {
+    width: 100%;
+    position: absolute;
+    top: 110%;
+    left: 9%;
+}
+.termini input {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 92%;
+    left: 0;
+    cursor: pointer;
+}
+#invia {
+    width: 20%;
+    height: 8vh;
+    position: absolute;
+    top: 68%;
+    right: 0;
+    border: 1px solid #ff7300;
+    border-radius: 5px;
+    background: #ff7300;
+    color: #fff;
+    font-size: 19px;
+    font-weight: 700;
+    cursor: pointer;
+}
+#invia:hover {
+    width: 20%;
+    height: 8vh;
+    position: absolute;
+    right: 0;
+    border: 1px solid #ff7300;
+    border-radius: 5px;
+    background: #fff;
+    color: #ff7300;
+    font-size: 19px;
+    font-weight: 700;
+}
+
+/*-- Contact Spot --*/
+.contact-spot {
+    width: 30%;
+    height: 105vh;
+    position: relative;
+    top: -79%;
+    left: 65%;
+    background: #fff;
+}
+.contact-spot h1 {
+    color: #ff7300;
+    position: absolute;
+    top: 20%;
+    left: 15%;
+    font-size: 50px;
+}
+.contact-list {
+    width: 100%;
+    position: relative;
+    top: 39%;
+    left: 13%;
+}
+.contact-list ul li {
+    list-style: none;
+    display: flex;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.contact-list ul li a {
+    width: 75%;
+    height: 5vh;
+    background: #f5e5ac;
+    color: #6f6c67;
+    font-size: 18px;
+    text-decoration: none;
+    padding-top: 4px;
+}
+.contact-list ul li p {
+    width: 75%;
+    height: 9vh;
+    list-style: none;
+    background: #fadf7f;
+    color: #6f6c67;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    font-size: 18px;
+    padding: 3%;
+}
+.contact-img {
+    width: 100%;
+    height: 5vh;
+    position: relative;
+    top: 50%;
+    display: flex;
+    color: #ff7300;
+    cursor: pointer;
+}
+.contact-img img {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: 5%;
+}
+.contact-img h3 {
+    position: absolute;
+    left: 25%;
+    font-weight: 100;
+}
+.contact-img a {
+    position: absolute;
+    top: 100%;
+    left: 27%;
+    font-size: 35px;
+    text-decoration: none;
+    color: #ff7300;
+}
+.contact-spot hr {
+    width: 65%;
+    height: 4px;
+    position: relative;
+    top: 56%;
+    left: 25%;
+    background: #ff7300;
+}
+
+/*------------ Privacy Style ------------*/
+.privacy-content {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+.privacy-box {
+    width: 80%;
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    background: #fadd7f;
+    padding: 8%;
+}
+#policy-title {
+    margin-top: 35px;
+    margin-left: 35%;
+    font-size: 60px;
+}
+#privacy-btn {
+    position: absolute;
+    right: 5%;
+    background: #ff7300;
+    border: 1px solid #ff7300;
+    padding: 1%;
+    border-radius: 20px;
+}
+#privacy-btn a {
+    text-decoration: none;
+    color: #000;
+}
+
 

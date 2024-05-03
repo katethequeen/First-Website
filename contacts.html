@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -9,6 +10,8 @@
     <link rel="icon" href="https://irp.cdn-website.com/e2a1badb/site_favicon_16_1711456430910.ico" type="image/x-icon">
 </head>
 <body>
+
+
     
     <section class="header">
 
@@ -24,20 +27,83 @@
             </div>
         </div>
         
-        <div class="call-btn-image">
-            <div class="opacity">
-                <div class="opacity-call-btn">
-                    <button type="button" class="call-btn"><a href="tel: +39 392 025 20 36">Chiama subito</a></button>
-                </div>
-            </div>
-        </div>
     </section>
 
     <!-------------- CONTENT ------------>
 
+    <section class="contacts-content">
+        <div class="how-contact">
+            <h1>Come Contattarci</h1>
+        
+            <p>Benvenuti in Klima Kalor, il punto di riferimento 
+                per la riparazione e manutenzione di caldaie ad Aulla e dintorni. 
+                Ci prendiamo cura del tuo impianto con professionalità e cortesia, 
+                garantendo sempre interventi tempestivi e di qualità. 
+                Affidati a noi per avere la tua caldaia sempre al top e non preoccuparti di gelate improvvise. 
+                Siamo qui per te!
+               
+                Puoi contattarci tramite telefono, email o compilando il form. Ti risponderemo prima possibile.
+            </p>
+        </div>
+
+        <div class="form-container">
+            <div class="form-box">
+                <h1>SCRIVICI</h1>
+                <form action="contacts.php" method="post" name="emailContact">
+                    <div class="input-row">
+                        <input type="text" name="userName" placeholder="*Nome e Cognome" required>
+                    </div>
+                    <div class="input-row">
+                        <input type="email" name="userEmail" placeholder="*Email" required>
+                    </div>
+                    <div class="input-row">
+                        <input type="tel" name="userPhone" placeholder="Telefono">
+                    </div>
+                    <div class="input-row">
+                        <textarea name="userMessage" placeholder="*Messaggio" rows="10" cols="88" required></textarea>
+                    </div>
+                    <div class="termini">
+                        <input type="checkbox" required>
+                        <p>Dichiaro di aver preso visione e di accettare l' 
+                            <a href="privacy.html">Informativa sulla privacy</a>
+                        </p>
+                    </div>
+                    <div class="input-row">
+                        <input type="submit" name="send" value="INVIA" id="invia">
+                    </div>
+                    
+                </form>
+            </div>
+        
+            <!-- SPOT -->
+
+            <div class="contact-spot">
+                <h1>Klima Kalor</h1>
+                <div class="contact-list">
+                    <ul>
+                        <li><a href="mailto: Capitaniandrea65@gmail.com">Capitaniandrea65@gmail.com</a></li>
+                        <li><p>Via Carlo Pisacane, 36 - 54011 Aulla (MS)</p></li>
+                        <li><a href="tel: +39 392 025 20 36">Ufficio +39 0187 409292</a></li>
+                    </ul>
+                </div>
+                <div class="contact-img">
+                    <img src="/images/clipart489223.png" alt="phone">
+                    <h3>Clicca e Chiama</h3>
+                    <a href="tel: +39 392 025 20 36">+39 0187 409292</a>
+                </div>
+                <hr>
+
+            </div>
+        </div>
+        
+        
+    </section> 
+
     <!-------------- FOOTER ------------->
+
     <section class="footer">
         <!-- Map -->
+        
         <div class="footer-map">
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2859.972211088612!2d9.966999411768533!3d44.20763871627487!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12d51ebfef5bbe1d%3A0xb83709c2c4ee5e61!2sVia%20C.%20Pisacane%2C%2036%2C%2054011%20Aulla%20MS!5e0!3m2!1sit!2sit!4v1714570435272!5m2!1sit!2sit" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
