@@ -476,17 +476,25 @@
     position: relative;
     top: 27%;
     background: #ff7300;
+    overflow: hidden;
 }
 .form-box {
     width: 55%;
     height: 105vh;
     position: relative;
     top: 5%;
-    left: 5%;
+    left: -57%;
     background: #fff;
     display: flex;
     text-align: center;
     justify-content: start;
+    transition-property: left;
+    transition-duration: 1.5s;
+    transition-timing-function: linear;
+    transition-delay: 0.5s;
+}
+.form-container:hover .form-box {
+    left: 5%;
 }
 .form-box h1 {
     color: #ff7300;
@@ -510,6 +518,7 @@
     margin-top: 20px;
     margin-bottom: 10px;
     border: 1px solid #8c8383d3;
+    font-size: 20px;
 }
 .input-row textarea {
     margin-top: 20px;
@@ -567,8 +576,15 @@
     height: 105vh;
     position: relative;
     top: -79%;
-    left: 65%;
+    left: 105%;
     background: #fff;
+    transition-property: left;
+    transition-duration: 1.5s;
+    transition-timing-function: linear;
+    transition-delay: 0.5s;
+}
+.form-container:hover .contact-spot {
+    left: 65%;
 }
 .contact-spot h1 {
     color: #ff7300;
