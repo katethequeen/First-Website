@@ -116,6 +116,7 @@
 .call-btn:hover {
     background: #fccb06;
     color: #222e50;
+    padding: 10px;
     cursor: pointer;
 }
 
@@ -518,11 +519,13 @@
     margin-top: 20px;
     margin-bottom: 10px;
     border: 1px solid #8c8383d3;
-    font-size: 20px;
+    font-size: 18px;
+    padding-left: 13px;
 }
 .input-row textarea {
     margin-top: 20px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding-left: 13px;
 }
 .termini {
     width: 70%;
